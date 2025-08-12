@@ -16,3 +16,8 @@ resource "azurerm_resource_group" "rg_group" {
   name     = "sapna1"
   location = "westus"
 }
+
+resource "azurerm_resource_group" "rg_group" {
+  name     = "sapna2"
+  location = "westus"
+}
