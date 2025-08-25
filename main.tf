@@ -18,3 +18,8 @@ resource "azurerm_storage_container" "rg_container" {
   container_access_type = "private"
 }
 
+resource "azurerm_resource_group" "rg1" {
+  name     = "sumit1"
+  location = "westus"
+}
+
